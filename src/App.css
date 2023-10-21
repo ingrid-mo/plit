@@ -1,0 +1,62 @@
+.bigHero{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/weather-7f851.appspot.com/o/Rectangle%2013%20(1).png?alt=media&token=63f1d2ac-df77-45e6-a8d2-e307bb0433af&_gl=1*boiwfi*_ga*MjY3OTYyODEzLjE2OTYwMTQxMDk.*_ga_CW55HF8NVT*MTY5NzgzNTk4Ni4xMi4xLjE2OTc4MzYwMTMuMzMuMC4w');
+  height: 285px;
+  position: relative;
+  bottom: 89px;
+  z-index: -1;
+  display: flex;
+  align-items: flex-end;
+}
+.navbar {
+  background-color: #ffffff00;
+  
+}
+.section_card{
+  display: grid;
+  grid-template-areas: "card card card";
+gap: 1%;
+justify-items: center;
+    align-items: center;
+}
+.bg-dark{
+  width: 20rem;
+  position: relative;
+
+}
+
+.hover_img:hover{
+  background-color: rgba(193, 159, 91, 0.582); 
+;
+}
+.card-text{
+  display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    color: transparent;
+}
+.card-title{
+  text-shadow: 0px 4px 4px rgba(70, 7, 37, 0.774);
+  text-align: center;
+  backdrop-filter: blur(15.5px);
+  margin-top: 5%;
+}
+.card-text:hover{
+  color: #332B2B;
+background-color: #f2f3a75e;
+backdrop-filter: blur(15.5px);
+
+  
+}
+h2{
+  text-align: center;
+}
+.badge{
+  position: absolute;
+  margin-top: 2%;
+
+}
+.buscador{
+  display: flex;
+  margin: 5% 0%;
+  justify-content: space-between;
+}
